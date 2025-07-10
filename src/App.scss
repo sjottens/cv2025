@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.btn-style {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  a {
+    margin: 6px;
+    padding: 12px 26px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #FFF;
+      color: #000;
+    }
+  }
+}
+
+.bio, .werkervaring, .info {
+  .btn-style {
+    a {
+      margin: 6px;
+      padding: 12px 26px;
+      font-size: 20px;
+      text-decoration: none;
+      background-color: #FFF;
+      color: #000;
+      border: 1px solid var(--primary);
+      transition: all 0.3s ease-out;
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        background-color: #9b9b9b;
+        color: #000;
+      }
+    }
+  }
+}
+
+.home,
+.contact,
+.bio,
+.profiel,
+.info,
+.werkervaring {
+  min-height: 100vh;
+  align-items: center;
+  font-size: 24px;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  h3 {
+    font-size: 26px;
+    margin: 0 0 15px 0;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+  }
+  p {
+    font-size: 16px;
+    padding: 15px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 26px;
+    color: #FFF;
+    max-width: 100%;
+    strong {
+      text-transform: uppercase;
+    }
+    ul {
+      list-style: none;
+    }
+  }
+}
+
+.contact {
+  background-image: url('/images/img-012.jpg');
+  background-size: 100%;
+  @media only screen and (max-width: 800px) {
+    background-size: 106%;
+    background-position-y: 0;
+  }
+  @media only screen and (max-width: 400px) {
+    background-size: 106%;
+    background-position-y: 0;
+  }
+}
+.bio {
+  background-image: url('/images/img-010.jpg');
+  color: #FFF;
+}
+.profiel {
+  background-image: url('/images/img-3.jpg');
+  color: #FFF;
+}
+.werkervaring {
+  background-image: url('/images/img-011.jpg');
+}
+.info {
+  background-image: url('/images/img-6.jpg');
+}
+
+.url-style {
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #FFF;
+  transition: all 0.3s ease-out;
+  &:hover {
+    color: #000;
+    background-color: #FFF;
+  }
+}

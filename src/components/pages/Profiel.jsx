@@ -6,12 +6,12 @@ function Profiel() {
     <div className='profiel'>
         <h3>Profiel</h3>
         <p>
-          Ervaren en gedreven Front-end Developer met een grafische achtergrond en ruim 11 jaar ervaring in het ontwikkelen van gebruiksvriendelijke webshops en interfaces binnen de e-commerce. Mijn kracht ligt in het combineren van visuele creativiteit met technische nauwkeurigheid. Ik werk graag binnen multidisciplinaire Scrum-teams, waar samenwerking, flexibiliteit en kwaliteit centraal staan.
+          Gedreven Frontend Developer met een 15 jaar grafische DTP achtergrond en ruim 11 jaar ervaring in het ontwikkelen van gebruiksvriendelijke websites en interfaces binnen de e-commerce.<br />
+          Ik werk graag binnen multidisciplinaire Scrum-teams, waar samenwerking, flexibiliteit en kwaliteit centraal staan.
           <br /><br />
-          Ik ben gespecialiseerd in HTML, CSS, JavaScript en heb ook ervaring met moderne frameworks zoals React en Angular. Doorlopend investeer ik in mijn eigen ontwikkeling via zelfstudie en online trainingen zodat ik up-to-date blijf binnen een voortdurend evoluerend vakgebied.
+          Ik werk voornamelijk in HTML, CSS/Less, JavaScript en jQuery.
+          Doorlopend investeer ik in mijn eigen ontwikkeling via zelfstudie en online trainingen.
           <br /><br />
-          In mijn vrije tijd vind ik ontspanning met mijn vriendin, onze twee kinderen en onze hond. Daarnaast houd ik van golfsurfen en rijd ik wel is met de motor<br />
-          – een gezonde balans tussen focus en vrijheid.
         </p>
         <p>
           <strong>Opleidingen & Cursussen</strong><br /><br />

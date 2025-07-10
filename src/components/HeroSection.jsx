@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css';
+import '../App.scss';
 import { Button } from './Button';
-import './HeroSection.css';
+import './HeroSection.scss';
 
 function HeroSection() {
   return (
@@ -15,7 +15,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          PROFIEL
+          OVER MIJ
         </Button>
         
       </div>
